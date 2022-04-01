@@ -1,1 +1,0 @@
-# ecgIntern.github.io
