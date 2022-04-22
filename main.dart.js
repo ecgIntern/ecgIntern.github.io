@@ -38900,7 +38900,7 @@ while(true)switch(s){case 0:if(a===""||b===""){q=!1
 s=1
 break}o=t.N
 s=3
-return A.Q(p.u7(A.a4(["username",a,"password",b],o,o),"/login",!1,"http://127.0.0.1:8080/api-auth"),$async$w0)
+return A.Q(p.u7(A.a4(["username",a,"password",b],o,o),"/login",!1,"http://85.214.245.177:8080/api-auth"),$async$w0)
 case 3:n=d
 m=A.amM(B.ab.kn(0,A.E8(A.E_(n.e).c.a.h(0,"charset")).ck(0,n.x),null))
 if(m.a){o=m.e
@@ -38931,7 +38931,7 @@ a3j(a){var s=0,r=A.N(t.y),q,p=this,o,n
 var $async$tS=A.O(function(b,c){if(b===1)return A.K(c,r)
 while(true)switch(s){case 0:o=t.N
 s=3
-return A.Q(p.u7(A.a4(["token",a],o,o),"/verify",!1,"http://127.0.0.1:8080/api-auth"),$async$tS)
+return A.Q(p.u7(A.a4(["token",a],o,o),"/verify",!1,"http://85.214.245.177:8080/api-auth"),$async$tS)
 case 3:n=c
 q=A.amN(B.ab.kn(0,A.E8(A.E_(n.e).c.a.h(0,"charset")).ck(0,n.x),null)).a
 s=1
@@ -38943,7 +38943,7 @@ a5g(a){var s=0,r=A.N(t.y),q,p=this,o,n,m
 var $async$mV=A.O(function(b,c){if(b===1)return A.K(c,r)
 while(true)switch(s){case 0:o=t.N
 s=3
-return A.Q(p.u7(A.a4(["refresh",a],o,o),"/refresh",!1,"http://127.0.0.1:8080/api-auth"),$async$mV)
+return A.Q(p.u7(A.a4(["refresh",a],o,o),"/refresh",!1,"http://85.214.245.177:8080/api-auth"),$async$mV)
 case 3:n=c
 m=A.amM(B.ab.kn(0,A.E8(A.E_(n.e).c.a.h(0,"charset")).ck(0,n.x),null))
 s=m.a?4:5
@@ -38992,10 +38992,10 @@ case 1:return A.L(q,r)}})
 return A.M($async$tI,r)},
 HP(a,b,c){var s=t.N,r=A.v(s,s)
 if(b)r.p(0,"Authorization","Bearer "+this.a)
-return A.aFZ(A.aDh("http","127.0.0.1:8080","api"+a,c),r)},
+return A.aFZ(A.aDh("http","85.214.245.177:8080","api"+a,c),r)},
 tJ(a){return this.HP(a,!0,B.GI)},
 u7(a,b,c,d){var s=t.N,r=A.v(s,s)
-if(d==="")d="http://127.0.0.1:8080/api"
+if(d==="")d="http://85.214.245.177:8080/api"
 if(c)r.p(0,"Authorization","Bearer "+this.a)
 return A.asn(A.or(d+b),a,r)},
 Je(a,b){return this.u7(a,b,!0,"")},
@@ -39062,7 +39062,7 @@ m=t.N
 l=A.v(m,m)
 l.p(0,"Authorization","Bearer "+p.a)
 s=4
-return A.Q(A.asn(A.or("http://127.0.0.1:8080/api/setProfilePicture"),n,l),$async$oH)
+return A.Q(A.asn(A.or("http://85.214.245.177:8080/api/setProfilePicture"),n,l),$async$oH)
 case 4:if(c.b<201){q=!0
 s=1
 break}q=!1
